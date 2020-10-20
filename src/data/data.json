@@ -1,0 +1,11 @@
+{
+    "lift": "Deadlift",
+    [
+        "phoneNumbers": [
+            {
+                "type": "deadlift",
+                "number": "105"
+            }
+        ]
+    ]
+}

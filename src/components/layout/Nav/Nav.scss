@@ -1,0 +1,19 @@
+.sidebar-nav {
+    min-width: 200px;
+    width: 15%;
+    background-color: #FFF;
+    border-right: 1px solid #d1d1d1;
+    height: 100vh;
+
+    &__wrapper {
+        padding: 2rem;
+
+        &__items {
+            margin-top: 1rem;
+
+            li {
+                padding: 10px 0;
+            }
+        }
+    }
+}

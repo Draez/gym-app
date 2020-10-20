@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 24px;
+    border: 0;
+    background-color: blue;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+}
