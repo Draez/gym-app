@@ -6,7 +6,7 @@ export const ExerciseProvider = props => {
 
     const [data, setData] = useState([
         {
-            lift: "Deadlift",
+            lift: "Deadlifst",
             amount: '105kg',
             reps: 8,
             id: 1
