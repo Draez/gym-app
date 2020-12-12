@@ -13,27 +13,29 @@ import { EditUser } from './components/pages/EditUser';
 import { Nav } from './components/layout/Nav/Nav';
 import { Header } from './components/layout/Header/Header';
 
+// Context
+import { ExerciseProvider } from './ExerciseContext';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <ExerciseProvider>
+      <div className="App">
+        <Header />
 
-      <div className="wrapper">
-        <Nav />
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/add" component={AddUser} />
-            <Route path="/edit/:id" component={EditUser} />
-          </Switch>
-        </Router>
+        <div className="wrapper">
+          <Nav />
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/add" component={AddUser} />
+              <Route path="/edit/:id" component={EditUser} />
+            </Switch>
+          </Router>
 
+        </div>
       </div>
-
-
-
-    </div>
+    </ExerciseProvider>
   );
 }
 
